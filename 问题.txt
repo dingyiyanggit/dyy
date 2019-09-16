@@ -1,0 +1,2 @@
+1.查找conf路径下的server.xml文件，修改Connector.port端口号，启动tomcat，执行startup.bat文件，打开浏览器，地址输入：http:\\localhost:8686（localhost为部署tomcat的IP，此处为本机部署，因此使用localhost，之后填写8686为端口号）
+2.Catalina是Tomcat的servlet容器。Coyote侦听特定TCP端口上到达服务器的传入连接，并将请求转发给Tomcat引擎以处理该请求并向请求客户端发回响应
